@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'passionone';
+    src: url(fonts/PassionOne-Bold.ttf) ;
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url(fonts/Sriracha-Regular.ttf);
+}
+* {
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+}
+header > h1{
+    font-size: calc(9vw);
+    text-align: center;
+    color: white;
+    font-family: 'passionone', serif;
+    padding-top: 50px;
+    color: white;
+}
+header > aside{
+    color: white;
+    text-align: center;
+    font: normal 15px Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+header > aside > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.normal{
+    background-color: white;
+    padding: 30px;
+}
