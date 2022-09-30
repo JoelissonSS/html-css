@@ -9,6 +9,7 @@
 }
 * {
     margin: 0;
+    padding: 0;
 }
 body{
     background-color: black;
@@ -17,10 +18,9 @@ header{
     background-color: black;
 }
 header > h1{
-    font-size: calc(9vw);
+    font:calc(9vh) 'passionone', sans-serif;
     text-align: center;
     color: white;
-    font-family: 'passionone', serif;
     padding-top: 50px;
     color: white;
 }
@@ -35,8 +35,43 @@ header > aside > a {
     font-weight: bold;
     color: white;
 }
-
+section{
+    font: calc(4vw) 'sriracha', arial, sans-serif;
+    height: calc(60vw);
+    padding: 5vh;
+}
 .normal{
     background-color: white;
-    padding: 30px;
+}
+.transp{
+    background-color: rgba(0, 0, 0, 0.474);
+}
+#img1{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    color: white;
+}
+#img2{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    color: white;
+}
+p{
+    display: inline-block;
+    margin: 5vh 0;
+}
+footer{
+    font: normal 1em arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+footer > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
