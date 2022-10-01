@@ -40,6 +40,7 @@ section{
     font: calc(4vw) 'sriracha', arial, sans-serif;
     height: calc(60vw);
     padding: 5vh;
+    text-shadow: 1px 1px 1px black;
 }
 .normal{
     background-color: white;
@@ -48,17 +49,13 @@ section{
     background-color: rgba(0, 0, 0, 0.474);
 }
 #img1{
-    background-image: url(imagens/background001.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
     color: white;
 }
 #img2{
-    background-image: url(imagens/background002.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
+    background: black url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
     color: white;
 }
 p{
