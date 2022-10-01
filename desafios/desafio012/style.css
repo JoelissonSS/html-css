@@ -23,6 +23,7 @@ header > h1{
     color: white;
     padding-top: 50px;
     color: white;
+    font-variant: small-caps;
 }
 header > aside{
     color: white;
